@@ -34,6 +34,8 @@
 
 #include <unistd.h>
 #include <getopt.h>
+
+#define GLIB_DISABLE_DEPRECATION_WARNINGS 1
 #include <glib.h>
 #include <sys/utsname.h>
 #include <stdio.h>
