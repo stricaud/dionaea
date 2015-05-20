@@ -29,6 +29,8 @@
 #define HAVE_REFCOUNT_H
 
 #include <stdbool.h>
+
+#define GLIB_DISABLE_DEPRECATION_WARNINGS 1
 #include <glib.h>
 
 struct refcount

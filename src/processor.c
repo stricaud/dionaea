@@ -1,3 +1,5 @@
+#define GLIB_DISABLE_DEPRECATION_WARNINGS 1
+
 #include <lcfg/lcfg.h>
 #include <lcfgx/lcfgx_tree.h>
 #include <ctype.h>

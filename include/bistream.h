@@ -29,6 +29,7 @@
 #define HAVE_BISTEAM_H
 
 #include <stdint.h>
+#define GLIB_DISABLE_DEPRECATION_WARNINGS 1
 #include <glib.h>
 
 

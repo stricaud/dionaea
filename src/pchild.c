@@ -37,7 +37,7 @@
 #include <signal.h>
 #include <sys/uio.h>
 
-
+#define GLIB_DISABLE_DEPRECATION_WARNINGS 1
 #include <glib.h>
 
 #include "config.h"
