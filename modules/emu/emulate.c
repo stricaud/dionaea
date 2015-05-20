@@ -25,6 +25,9 @@
  *
  *******************************************************************************/
 
+#define GLIB_DISABLE_DEPRECATION_WARNINGS 1
+
+
 #include <stdint.h>
 
 #include <glib.h>
